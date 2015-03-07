@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/userOption.xsd">
+    <import>
+        <options>
+            <!-- contact -->
+            <option name="klammID">
+                <categoryname>profile.contact</categoryname>
+                <optiontype>integer</optiontype>
+                <outputclass>wcf\system\option\user\KlammUserOptionOutput</outputclass>
+                <validationpattern>[0-9]</validationpattern>
+                <searchable>0</searchable>
+                <visible>15</visible>
+                <editable>3</editable>
+            </option>
+            <!--  /contact -->
+        </options>
+    </import>
+</data>
